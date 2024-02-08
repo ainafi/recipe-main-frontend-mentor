@@ -1,0 +1,190 @@
+@font-face {
+    font-family:"outfit" ;
+    src: url(../fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:"young" ;
+    src: url(../fonts/young-serif/YoungSerif-Regular.ttf);
+}
+:root {
+    --nutmag: hsl(14, 45%, 36%);
+    --dark-raspberry:hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --Rose-white: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-charcoal: hsl(24, 5%, 18%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    overflow-x: hidden;
+}
+main{
+    max-width: 1440px;
+    margin: auto;
+    padding: 6px;
+    background-color: var(--White);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-family: 'outfit';
+}
+
+.bold{
+    font-weight: 600;
+    color: var(--nutmag);
+}
+p{
+    font-family: "outfit";
+    font-size: 16px;
+}
+li{
+    font-family: "outfit";
+    font-size: 16px;
+}
+img{
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+}
+
+.intro h1{
+    font-family: "young";
+    font-size: 44px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.intro p{
+    width: 47%;
+    margin-bottom: 44px;
+}
+.preparation{
+    background-color: var(--Eggshell);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 5rem;
+}
+
+.preparation h2{
+    font-family: 'outfit';
+    font-weight: 500;
+    font-size: 25px;
+    color: var(--dark-raspberry);
+    margin-bottom: 14px;
+}
+.preparation li{
+    font-weight: 500;
+    padding-left: 12px;
+    margin-bottom: 6px;
+}
+.preparation li span{
+    font-weight: 400;
+    padding-left: 8px;
+}
+.ingredient{
+    margin-bottom: 2rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.ingredient h2{
+    font-family: "young";
+    color: var(--nutmag);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.ingredient li{
+    padding-left: 12px;
+    margin-bottom: 6px;
+}
+
+.instruction h2{
+    font-family: "young";
+    color: var(--nutmag);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.instruction li{
+    padding-left: 12px;
+    margin-bottom: 6px;
+}
+.instruction li{
+    font-weight: 300;
+}
+.instruction li span{
+    font-weight: 500;
+}
+
+.nutrition h2{
+    font-family: "young";
+    color: var(--nutmag);
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+ol{
+    margin-bottom: 30px;
+}
+.nutrition{
+    margin-bottom: 20px;
+}
+
+@media screen and  (max-width: 300px) {
+    .img {
+        width: 510px; 
+        border-radius: 15px; 
+       
+    }
+    .intro h1{
+        font-size: 40px;
+    }
+    .intro p{
+        width: 100%;
+        margin-bottom: 44px;
+    }
+
+}
+@media screen and  (max-width: 750px) {
+        .img {
+            width: 520px; 
+            border-radius: 15px; 
+           
+        }
+        .intro h1{
+            font-size: 40px;
+        }
+        .intro p{
+            width: 80%;
+            margin-bottom: 44px;
+        }
+
+}
+
+@media screen and  (min-width: 756px){
+    .img {
+        width: 620px; 
+        border-radius: 15px; 
+       
+    }
+}
+@media screen and  (min-width: 1200px){
+    .img {
+        width: auto; 
+        border-radius: 15px; 
+       
+    }
+}
+
