@@ -22,7 +22,7 @@ body{
     overflow-x: hidden;
 }
 main{
-    max-width: 1440px;
+    max-width: 1200px;
     margin: auto;
     padding: 6px;
     background-color: var(--White);
@@ -51,10 +51,12 @@ li{
     font-family: "outfit";
     font-size: 16px;
 }
-img{
+.img{
     text-align: center;
     border-radius: 30px;
     margin-bottom: 2rem;
+    height: 300px;
+    width: 100%;
 }
 
 .intro h1{
